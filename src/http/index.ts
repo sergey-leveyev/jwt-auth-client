@@ -1,7 +1,7 @@
 import axios from "axios";
 import { AuthResponse } from "../models/response/AuthResponse";
 
-export const API_URL = `http://34.107.114.16/api`;
+export const API_URL = `https://jwt-auth-server-node.herokuapp.com/api`;
 
 const $api = axios.create({
   withCredentials: true,
